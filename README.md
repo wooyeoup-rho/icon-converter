@@ -1,6 +1,20 @@
 # ICO Converter
 Simple app that allows users to drag and drop images and convert them into .ico files.
 
+- Choose from standard icon sizes (16, 32, 64, 128, and 256)
+- Drag and drop functionality
+- .ico file created under same directory as image
+
+## Disclaimer
+The application *may be flagged as malicious* by certain security vendors and antivirus programs (11/70 on VirusTotal).
+
+This is a false positive likely due to:
+- The executable being unsigned
+- Application's file-writing capabilities
+- PyInstaller packaging everything in to one executable
+
+**The application does not transmit any data. You are encouraged to inspect the code and build it yourself. Steps below.**
+
 ---
 ### Download the executable:
 - You can download the precompiled executable directly (Windows):
